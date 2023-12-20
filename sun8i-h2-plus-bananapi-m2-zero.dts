@@ -239,11 +239,10 @@
 	 * There're two micro-USB connectors, one is power-only and another is
 	 * OTG. The Vbus of these two connectors are connected together, so
 	 * the external USB device will be powered just by the power input
-	 * from the power-only USB port.
+	 * from the power-only US port.
 	 */
 	status = "okay";
 };
-
 
 &emac {
 	status = "okay";
@@ -253,6 +252,10 @@
 };
 
 &i2s2 {
+	status = "okay";
+};
+
+&hdmi_sound {
 	status = "okay";
 };
 
